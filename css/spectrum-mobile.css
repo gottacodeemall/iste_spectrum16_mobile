@@ -1,0 +1,325 @@
+* {
+  box-sizing:border-box;
+  font-family: "Bitter";
+}
+body{
+  background-color: #ab47bc;
+}
+.pad p{
+  padding-left: 4vw;
+  color: #6d4c41;
+}
+.pad ul,.pad li{
+  color:#6d4c41;
+}
+h2{
+  text-align: center;
+  font-family: "Bitter";
+  font-weight: bold;
+}
+.row{
+  width:100vw;
+  margin-left:0px(!important);
+  margin-right:0px(!important);
+}
+.landing{
+  position: absolute;
+  height:100vh;
+  width:100vw;
+  background-image: url(../img/background.jpg);
+   background-repeat:no-repeat;
+   background-size: cover;
+   background-position:center;
+}
+.landing h1{
+  position: relative;
+  text-align: center;
+  top:18vh;
+  font-family: "Bitter";
+  font-weight: 700;
+  color:white;
+}
+.landing p{
+  position: relative;
+  text-align: center;
+  top:26vh;
+  font-family: "Bitter";
+  font-weight: 400;
+  color:white;
+  font-size: 1.3em;
+  overflow: hidden;
+}
+
+#nav-icon{
+  position: relative;
+
+  top:10vh;
+  left:4vw;
+}
+
+#nav{
+    position: fixed;
+    top:0vh;
+    left:-60vw;
+    height:100vh;
+    width:60vw;
+    background-image: url(../img/nav-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:2;
+}
+#nav-15{
+  position: absolute;
+  bottom:1vh;
+  left:2vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/craft6.jpg);
+}
+#nav-14{
+  position: absolute;
+  bottom:1vh;
+  left:21vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/plane.jpg);
+}
+#nav-13{
+  position: absolute;
+  bottom:1vh;
+  left:40vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/photo.jpg);
+}
+#nav-12{
+  position: absolute;
+  bottom:16vh;
+  left:2vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/tech.jpg);
+}
+#nav-11{
+  position: absolute;
+  bottom:16vh;
+  left:21vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/csi.jpg);
+}
+#nav-10{
+  position: absolute;
+  bottom:16vh;
+  left:40vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/bool2.jpeg);
+}
+#nav-9{
+  position: absolute;
+  bottom:31vh;
+  left:2vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/street.jpg);
+}
+#nav-8{
+  position: absolute;
+  bottom:31vh;
+  left:21vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/green.png);
+}
+#nav-7{
+  position: absolute;
+  bottom:31vh;
+  left:40vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/hunt.jpeg);
+}
+#nav-6{
+  position: absolute;
+  bottom:46vh;
+  left:2vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/epistime.jpg);
+}
+#nav-5{
+  position: absolute;
+  bottom:46vh;
+  left:21vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/code.jpg);
+}
+#nav-4{
+  position: absolute;
+  bottom:46vh;
+  left:40vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/quiz.jpg);
+}
+#nav-3{
+  position: absolute;
+  bottom:61vh;
+  left:2vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/junk.jpg);
+
+}
+.back{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:1;
+}
+#nav-2{
+  position: absolute;
+  bottom:61vh;
+  left:21vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/ad.png);
+  background-position: left(!important);
+}
+#nav-1{
+  position: absolute;
+  bottom:61vh;
+  left:40vw;
+  width:17vw;
+  height:14vh;
+  background-image: url(../img/events/bool.jpg);
+}
+#image{
+  position:relative;
+  background-image: url(../img/spectrumtxt.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top:12vh;
+  left:4vw;
+  width:50vw;
+  height:12vh;
+  z-index:1;
+}
+
+.nav-close{
+  position:absolute;
+  right:5vw;
+  top:25px;
+  height:30px;
+  width:30px;
+}
+.nav-close:hover {
+  opacity: 1;
+}
+.nav-close:before, .nav-close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.nav-close:before {
+  transform: rotate(45deg);
+}
+.nav-close:after {
+  transform: rotate(-45deg);
+}
+
+.nav-download{
+  position:absolute;
+  background-image: url(../img/download.png);
+  background-size: contain;
+  right:24vw;
+  top:22px;
+  height:40px;
+  width:40px;
+}
+.nav-points{
+  position:absolute;
+  background-image: url(../img/points.png);
+  background-size: contain;
+  right:44vw;
+  top:24px;
+  height:35px;
+  width:40px;
+}
+#junkyard{
+  background-color: #b39ddb;
+}
+
+#admania{
+  background-color: #9fa8da;
+}
+#boolelectric{
+  background-color: #90caf9;
+}
+#epistimi{
+  background-color: #a5d6a7;
+}
+#dreamcodex{
+  background-color: #fff55d;
+}
+#spectrumquiz{
+  background-color: #ffcc80;
+}
+#streetsmart{
+  background-color: #ffab91;
+}
+#greenovation{
+  background-color: #b39ddb;
+}
+#techilla{
+  background-color: #9fa8da;
+}
+#techtales{
+  background-color: #90caf9;
+}
+#csi{
+  background-color: #a5d6a7;
+}
+#boolelectronics{
+  background-color:  #fff55d;
+}
+#craftstix{
+    background-color:  #ffcc80;
+}
+#paperplanes{
+    background-color: #b39ddb;
+}
+#photoclix{
+  background-color: #ffab91;
+}
+.scrollToTop{
+	width:100px;
+	height:130px;
+	text-align:center;
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:-8vh;
+	right:-12vw;
+	display:none;
+  z-index:2;
+	background: url('../img/arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+#roll{
+  position:fixed;
+  z-index:4;
+  width:6vw;
+  height: 100vh;
+}
