@@ -313,6 +313,12 @@ h2{
   z-index:2;
 	background: url('../img/arrow_up.png') no-repeat 0px 20px;
 }
+@media screen and (min-width: 400px) {
+    .scrollToTop {
+      bottom:-3vh;
+      right:-4vw;
+    }
+}
 .scrollToTop:hover{
 	text-decoration:none;
 }
