@@ -4,6 +4,7 @@
 }
 body{
   background-color: #ab47bc;
+  width:98.75vw;
 }
 .pad p{
   padding-left: 4vw;
@@ -18,10 +19,11 @@ h2{
   font-weight: bold;
 }
 .row{
-  width:100vw;
+  width:94vw;
   margin-left:0px(!important);
   margin-right:0px(!important);
 }
+.col-xs-12 {padding: 0;}
 .landing{
   position: absolute;
   height:100vh;
@@ -56,7 +58,42 @@ h2{
   top:10vh;
   left:4vw;
 }
-
+.schedule{
+  position:relative;
+  top:2vh;
+  bottom:2vh;
+  left:25vw;
+  width:40vw;
+  background-color: #E9E581;
+  height:5vh;
+}
+.schedule p{
+  position: absolute;
+  top:0.6vh;
+  left:2vw;
+  font-size: 3vh;
+  font-weight: bold;
+  font-family: "Bitter";
+  color:#2b2b2b;
+}
+.schedule:hover{
+  transition: all 0.3s ease-in-out;
+  transform:scale(0.96,0.96);
+}
+.leaderboard{
+  position:relative;
+  top:4vh;
+  bottom:2vh;
+  left:20vw;
+  width:50vw;
+  background-color: #E9E581;
+  height:5vh;
+  margin-bottom: 7vh;
+}
+#link iframe{
+  position: relative;
+  width:84vw; height:50vh;
+}
 #nav{
     position: fixed;
     top:0vh;
@@ -66,6 +103,7 @@ h2{
     background-image: url(../img/nav-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     z-index:2;
 }
 #nav-15{
@@ -322,7 +360,6 @@ h2{
 .scrollToTop:hover{
 	text-decoration:none;
 }
-
 #roll{
   position:fixed;
   z-index:4;
